@@ -5,7 +5,7 @@
 A fun project to build your own custom keyboard without spending a fortune!
 
 <a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/keyboard1.jpg">
-    <img href="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/keyboard1.jpg" width="600" alt="Keyboard 1" />
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/keyboard1.jpg" width="600" alt="Keyboard 1" />
 </a>
 
 A few tips to complete the various guides available on the Internet, to fill the gaps of what was not clear to me when assembling my Dactyl-CC.
@@ -52,10 +52,18 @@ The hardest part was to get up to speed with 3D printing and different materials
 
 Basically I went for all the default and cheapest settings and I have to say that I am very happy with the result: the case is very solid, rigid, even the smallest parts, for example the small parts that blocks the key switches. I am also quite satisfied with the finishing, it looks brushed.
 
-![Case 1](./pictures/case1.jpg =100x)
-![Case 2](./pictures/case2.jpg =100x)
-![Case 3](./pictures/case3.jpg =100x)
-![Case 4](./pictures/case4.jpg =100x)
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/case1.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/case1.jpg" width="100" alt="Case 1" />
+</a>
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/case2.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/case2.jpg" width="100" alt="Case 2" />
+</a>
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/case3.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/case3.jpg" width="100" alt="Case 3" />
+</a>
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/case4.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/case4.jpg" width="100" alt="Case 4" />
+</a>
 
 ### Components
 
@@ -71,7 +79,9 @@ Basically I went for all the default and cheapest settings and I have to say tha
 * Spool of colored wire: it is suggested in many guides to use wire with 8 colors 30AWG. Honestly it is very thin and it will break many times while wiring but it is the right size when soldering all of them on the Teensy or MCP.
 * M2.5 screws and brass nuts: I didn't find a better solution at the moment than fix the brass nuts in the case holes with some glue.
 
-![Brass nuts](./pictures/brass_nut.jpg =100x)
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/brass_nut.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/brass_nut.jpg" width="100" alt="Brass nuts" />
+</a>
 
 Soldering iron with a small tip, small tongs/nippers and hot glue are also very useful.
 
@@ -101,24 +111,36 @@ I started by installing the keys (without keycaps) in the case. Then all the dio
 The diodes have a direction, so it is important to **pay attention** when soldering.
 I have prepared all 68 diodes twisting the little metal segment to form a little hole, so that it was then easy to anchor the hole to the little pin of each key and solder.
 
-![Diodes1](./pictures/diodes1.jpg =100x)
-![Diodes2](./pictures/diodes1.jpg =100x)
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/diodes1.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/diodes1.jpg" width="100" alt="Diodes 1" />
+</a>
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/diodes2.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/diodes2.jpg" width="100" alt="Diodes 2" />
+</a>
 
 ## Wiring
 
 Wiring was rather easy: I followed the same color codes in the schema in the guides and patiently wired rows and columns.
 I have found easier to prepare the wire before soldering, I had more space than inside the case. I also kept the last segment of the wire that will be soldered to the Teensy/MCP very long, because I was not sure where/how I wanted to install the Teensy/MCP.
 
-![Wires](./pictures/wires.jpg =100x)
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/wires.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/wires.jpg" width="100" alt="Wires" />
+</a>
 
 Here how it looked at the end, with **the mistake** of the **red** column (which I had to change at the end). Unfortunately I forgot to take pictures with the final wiring.
 
-![Wiring1](./pictures/wiring1.jpg =100x)
-![Wiring2](./pictures/wiring2.jpg =100x)
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/wiring1.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/wiring1.jpg" width="100" alt="Wiring 1" />
+</a>
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/wiring2.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/wiring2.jpg" width="100" alt="Wiring 2" />
+</a>
 
 At the end, I have soldered each row and column to the Teensy/MCP and also the audio jack with the resistors.
 
-![Audio jack](./pictures/audio-jack.jpg =100x)
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/audio-jack.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/audio-jack.jpg" width="100" alt="Audio jack" />
+</a>
 
 For the Teensy/MCP, I wanted to use the default firmware `handwired/dactyl`, without any manual customization (only via the online editor, more details below).
 
@@ -169,8 +191,12 @@ For the wiring for the thumbs clusters, I followed the configuration of the firm
 
 I have also added a plastic separation to avoid any possible short-circuit.
 
-![Internal1](./pictures/internal1.jpg =100x)
-![Internal2](./pictures/internal2.jpg =100x)
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/internal1.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/internal1.jpg" width="100" alt="Internal 2" />
+</a>
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/internal2.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/internal2.jpg" width="100" alt="Internal 2" />
+</a>
 
 Note: while soldering and moving components around, many segments got cut or disconnected, I had to fix them multiple times.
 
@@ -194,9 +220,15 @@ I have simply compiled and downloaded the firmware from the configurator and fla
 
 I used some [Sugru](https://tesa-sugru.com/) to fill the holes and block the USB/Audio ports to give it a more solid look and to avoid that the little wires get cut when plugging/unplugging the cables.
 
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/usb-port.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/usb-port.jpg" width="100" alt="USB Port" />
+</a>
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/audio-port.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/audio-port.jpg" width="100" alt="Audio port" />
+</a>
+
 The result is quite satisfying.
 
-![USB Port](./pictures/usb-port.jpg =100x)
-![Audio Port](./pictures/audio-port.jpg =100x)
-
-![Keyboard2](./pictures/keyboard2.jpg =500x)
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/keyboard2.jpg">
+    <img src="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/keyboard2.jpg" width="500" alt="Keyboard 2" />
+</a>
