@@ -4,7 +4,9 @@
 
 A fun project to build your own custom keyboard without spending a fortune!
 
-![Keyboard1](./pictures/keyboard1.jpg =600x)
+<a href="https://github.com/ntarocco/dactyl-cc/blob/main/pictures/keyboard1.jpg">
+    <img href="https://raw.githubusercontent.com/ntarocco/dactyl-cc/main/pictures/keyboard1.jpg" width="600" alt="Keyboard 1" />
+</a>
 
 A few tips to complete the various guides available on the Internet, to fill the gaps of what was not clear to me when assembling my Dactyl-CC.
 This guide will not include the entire process of wiring and assembling because this is very well covered in the link belows.
